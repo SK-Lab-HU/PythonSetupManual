@@ -132,12 +132,16 @@ print(x3)
 ```
 
 
-
-
 # 条件構文
 ifなどの構文
-```
-a =
+```Python
+a = 1 
+b = 2
+
+if a + b >=2:
+    print("true")
+else:
+    print("false")
 ```
 # ループ構文
 for ループ、 whileループ
