@@ -44,7 +44,7 @@
 
 ![](images/extention.png)
 
-6. 以下のようにpythonコードを書き、左上の三角の再生ボタンを押してコードを実行する。
+6. 以下のようにpythonコードを書き、右上の三角の再生ボタンを押してコードを実行する。
 
 ![](images/pythoncode.png)
 
