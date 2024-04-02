@@ -286,6 +286,10 @@ fig.savefig("OD600.png", dpi=500)
 
 ```
 
+実行結果
+
+![](images/OD600.png)
+
 
 
 
