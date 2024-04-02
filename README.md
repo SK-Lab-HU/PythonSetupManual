@@ -85,7 +85,7 @@ l1 = [1,2,3]
 #辞書
 d1 = {1:"1の値",2,"2の値"}
 ```
-# 四則演算
+## 四則演算
 
 ```Python
 # 足し算
@@ -132,7 +132,7 @@ print(x3)
 ```
 
 
-# 条件構文
+## 条件構文
 ifなどの構文
 
 ```Python
@@ -148,7 +148,7 @@ else:
     print("false")
 ```
 
-# ループ構文
+## ループ構文
 
 ```Python
 #0から99をターミナルに出力(iは任意の変数名)
@@ -168,10 +168,23 @@ while True:
     print(1)
 
 #以下の場合は1から7までprintされてループが終了。
-# += の記号はvalue = value +　1 同義
+# += の記号はvalue = value +　1 と同義
 value = 1
 while value < 8:
     print(value)
     value += 1
 ```
 
+## 関数
+
+```Python
+
+#入力値に1を足して返す関数。
+def func1(input1: int) -> int:
+    return input1 + 1
+
+#上記は以下のように省略して書くことができる。
+def func1(input1):
+    return input1 + 1
+
+```
