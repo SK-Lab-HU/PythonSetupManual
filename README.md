@@ -14,3 +14,10 @@
 
 4. Setup was successful と表示されたらPythonのインストールは完了。
 
+## VSCODEのダウンロード&インストール
+
+1. 公式ページからwindows用のvscodeをダウンロード、インストールする。([VSCODEダウンロードページ](https://code.visualstudio.com/download))
+
+2. Windows用をダウンロードする。
+
+3. ダウンロードしたファイルを開き、インストールする。
