@@ -186,5 +186,5 @@ def func1(input1: int) -> int:
 #上記は以下のように省略して書くことができる。
 def func1(input1):
     return input1 + 1
-
 ```
+
