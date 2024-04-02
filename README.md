@@ -188,3 +188,30 @@ def func1(input1):
     return input1 + 1
 ```
 
+## クラス
+
+OOPでpythonを書く場合に使用。(発展版)
+
+```Python
+
+class Cell:
+    def __init__(self) -> None:
+        self.cell_id = 0
+        self.cell_length = 0
+
+    def get_cell_id(self) -> int:
+        return self.cell_id
+
+    def get_cell_length(self) -> int:
+        return self.cell_length
+
+    def set_cell_id(self, cell_id: int) -> None:
+        self.cell_id = cell_id
+
+    def set_cell_length(self, cell_length: int) -> None:
+        self.cell_length = cell_length
+
+    def __repr__(self) -> str:
+        return f"Cell {self.cell_id} with length {self.cell_length}"
+
+```
