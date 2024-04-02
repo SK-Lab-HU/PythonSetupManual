@@ -12,6 +12,7 @@
   - [関数](#関数)
   - [クラス](#クラス)
 - [グラフの描画](#グラフの描画)
+  - [散布図の作成](#散布図の作成)
 ## Pythonのインストール
 
 1. Python公式ページにアクセスする。([Python公式サイト](https://www.python.org/downloads/))
@@ -254,6 +255,32 @@ pip install matplotlib numpy pandas
 ```
 
 もし失敗したら、pipをpip3に変えて実行する。
+
+```bash
+pip3 install matplotlib numpy pandas
+```
+
+## 散布図の作成
+
+以下のコードをコピー&ペーストして実行すると下図がpythonファイルと同じディレクトリに出力される。
+
+```Python
+import matplotlib.pyplot as plt
+import numpy as np
+
+time:list[int] = [i for i in range(10,20)]
+OD600:list[float] = [np.exp(i*0.12) for i in time]
+
+fig = plt.figure(figsize=[5,5])
+plt.scatter(time, OD600,s=30, c='tab:blue', marker='o', label='sample1')
+plt.xlabel("time(h)")
+plt.ylabel("OD600(-)")
+plt.grid()
+plt.legend()
+
+fig.savefig("OD600.png", dpi=500)
+```
+
 
 
 
