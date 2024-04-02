@@ -246,7 +246,10 @@ class Cell:
 
 
 # グラフの描画
-pythonのグラフ描画モジュール'Matplotlib'をインストールする。(初回のみ)
+pythonのグラフ描画モジュール'matplotlib'をインストールする。(初回のみ)
+
+公式ドキュメントは以下
+[matplotlib公式ドキュメント](https://matplotlib.org/stable/plot_types/index.html)
 
 ターミナルで以下コマンドを実行。
 
