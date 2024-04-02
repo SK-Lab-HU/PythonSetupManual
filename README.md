@@ -134,14 +134,44 @@ print(x3)
 
 # 条件構文
 ifなどの構文
+
 ```Python
 a = 1 
 b = 2
 
-if a + b >=2:
+# 以下の場合は　trueがプリントされる。
+if a + b > 2:
     print("true")
+elif a + b == 2:
+    print("a+b=2")
 else:
     print("false")
 ```
+
 # ループ構文
-for ループ、 whileループ
+
+```Python
+#0から99をターミナルに出力(iは任意の変数名)
+for i in range(100):
+    print(i)
+
+#ループで配列の値を取り出す。
+#以下の場合は1から7までの整数が表示される。
+arr = [1,2,3,4,5,6,7]
+for i in arr:
+    print(i)
+
+#while ループ
+#True部分がFalseになるまで実行される。
+#以下の場合は無限に1を出力。
+while True:
+    print(1)
+
+#以下の場合は1から7までprintされてループが終了。
+# += の記号はvalue = value +　1 同義
+value = 1
+while value < 7:
+    print(value)
+    value += 1
+```
+
