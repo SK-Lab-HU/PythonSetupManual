@@ -108,9 +108,9 @@ s2: str = "20.24"
 b1: bool = True
 b2: bool = False
 # 配列
-l1: list = [1,2,3]
+l1: list[int] = [1,2,3]
 # 辞書
-d1: dict = {1:"1の値",2:"2の値"}
+d1: dict[int,str] = {1:"1の値",2:"2の値"}
 ```
 ## 四則演算
 
