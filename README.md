@@ -12,3 +12,5 @@
 
 ![](images/python_install.png)
 
+4. Setup was successful と表示されたらPythonのインストールは完了。
+
