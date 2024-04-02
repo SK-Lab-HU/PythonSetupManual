@@ -11,6 +11,7 @@
   - [ループ構文](#ループ構文)
   - [関数](#関数)
   - [クラス](#クラス)
+- [グラフの描画](#グラフの描画)
 ## Pythonのインストール
 
 1. Python公式ページにアクセスする。([Python公式サイト](https://www.python.org/downloads/))
@@ -62,7 +63,6 @@
 下部に出てくるのターミナル（黒い画面）に12345と表示されたら成功。
 
 ![](images/pythonterminal.png)
-
 
 
 # 基本構文
@@ -242,3 +242,18 @@ class Cell:
         return f"Cell {self.cell_id} with length {self.cell_length}"
 
 ```
+
+
+# グラフの描画
+pythonのグラフ描画モジュール'Matplotlib'をインストールする。(初回のみ)
+
+ターミナルで以下コマンドを実行。
+
+```bash
+pip install matplotlib numpy pandas
+```
+
+もし失敗したら、pipをpip3に変えて実行する。
+
+
+
