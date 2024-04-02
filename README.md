@@ -170,7 +170,7 @@ while True:
 #以下の場合は1から7までprintされてループが終了。
 # += の記号はvalue = value +　1 同義
 value = 1
-while value < 7:
+while value < 8:
     print(value)
     value += 1
 ```
