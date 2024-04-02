@@ -1,0 +1,2 @@
+# PythonSetupManual
+WindowsでPythonを使用できるようになるまでのセットアップチュートリアル
